@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0aaa5904-80ad-44e2-a8f8-fef77780c3d2" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4813dd7b-953e-479b-a588-1795a53e8838.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4813dd7b-953e-479b-a588-1795a53e8838/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4813dd7b-953e-479b-a588-1795a53e8838/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4813dd7b-953e-479b-a588-1795a53e8838/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/config/ModelMapperConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/controller/TodoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/controller/exception/CommonExceptionAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/controller/formatter/LocalDateFormatter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/domain/TodoVO$TodoVOBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/domain/TodoVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/dto/TodoDTO$TodoDTOBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/dto/TodoDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/mapper/TimeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/mapper/TimeMapper2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/mapper/TodoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/service/TodoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/service/TodoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/net/ict/springex/mapper/TimeMapperTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/net/ict/springex/mapper/TodoMapperTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/net/ict/springex/service/TodoServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/mappers/TimeMapper2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/mappers/TodoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/config/ModelMapperConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/controller/TodoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/controller/exception/CommonExceptionAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/controller/formatter/LocalDateFormatter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/domain/TodoVO$TodoVOBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/domain/TodoVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/dto/TodoDTO$TodoDTOBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/dto/TodoDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/mapper/TimeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/mapper/TimeMapper2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/mapper/TodoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/service/TodoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/service/TodoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/HikariCP-5.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/classmate-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/hibernate-validator-6.2.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/jakarta.validation-api-2.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/jboss-logging-3.4.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/log4j-api-2.17.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/log4j-core-2.17.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/log4j-slf4j-impl-2.17.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/mariadb-java-client-3.0.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/modelmapper-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/mybatis-3.5.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/mybatis-spring-2.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/slf4j-api-1.7.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/spring-aop-5.3.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/spring-beans-5.3.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/spring-context-5.3.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/spring-core-5.3.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/spring-expression-5.3.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/spring-jcl-5.3.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/spring-jdbc-5.3.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/spring-test-5.3.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/spring-tx-5.3.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/spring-web-5.3.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/spring-webmvc-5.3.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/root-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/servlet-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/views/custom404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/views/todo/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/resources/intro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/springEx-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/net.ict.springex.service.TodoServiceTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/net.ict.springex.service.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/mappers/TimeMapper2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/mappers/TodoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-net.ict.springex.service.TodoServiceTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lombok.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/config/ModelMapperConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/controller/TodoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/controller/exception/CommonExceptionAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/controller/formatter/LocalDateFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/domain/TodoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/dto/TodoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/mapper/TimeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/mapper/TimeMapper2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/mapper/TodoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/service/TodoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/service/TodoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/TimeMapper2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/TodoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/root-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/servlet-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/custom404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/intro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/net/ict/springex/mapper/TimeMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/net/ict/springex/mapper/TodoMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/net/ict/springex/service/TodoServiceTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="springEx" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="HTML File" />
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/root-context.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HKsw0lYndfEISlPHctm4lAT8Ae" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Spring5\springEx\src\main\webapp\WEB-INF" />
+      <recent name="C:\Spring5\springEx\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.ict.springex.mapper" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle " />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.SampleTests.testConnection">
+    <configuration name="SampleTests.testConnection" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;net.ict.springex.sample.SampleTests.testConnection&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TimeMapperTest.testNow" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;net.ict.springex.TimeMapperTest.testNow&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TodoMapperTest.testGetTime" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;net.ict.springex.mapper.TodoMapperTest.testGetTime&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TodoMapperTest.testInsert" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;net.ict.springex.mapper.TodoMapperTest.testInsert&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TodoServiceTest.testRegister" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;net.ict.springex.service.TodoServiceTest.testRegister&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="springEx" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 9.0.652" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.652" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="$PROJECT_DIR$/../../Java/jdk-11.0.2">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="Gradle : net.ict : springEx-1.0-SNAPSHOT.war (exploded)">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="0880e507-2810-4fe2-a280-41c9c356dc10" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64323" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : net.ict : springEx-1.0-SNAPSHOT.war (exploded)" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.SampleTests.testConnection" />
+      <item itemvalue="Gradle.TimeMapperTest.testNow" />
+      <item itemvalue="Gradle.springEx" />
+      <item itemvalue="Gradle.TodoMapperTest.testGetTime" />
+      <item itemvalue="Gradle.TodoMapperTest.testInsert" />
+      <item itemvalue="Gradle.TodoServiceTest.testRegister" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.652" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.TodoServiceTest.testRegister" />
+        <item itemvalue="Gradle.TodoMapperTest.testInsert" />
+        <item itemvalue="Gradle.TodoMapperTest.testGetTime" />
+        <item itemvalue="Gradle.springEx" />
+        <item itemvalue="Gradle.TimeMapperTest.testNow" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0aaa5904-80ad-44e2-a8f8-fef77780c3d2" name="Changes" comment="" />
+      <created>1668045345526</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668045345526</updated>
+      <workItem from="1668045346792" duration="20084000" />
+      <workItem from="1668132137972" duration="17896000" />
+      <workItem from="1668388715777" duration="21963000" />
+      <workItem from="1668416061303" duration="1982000" />
+      <workItem from="1668418078886" duration="429000" />
+      <workItem from="1668418529380" duration="397000" />
+      <workItem from="1668418946567" duration="362000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalStateException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
