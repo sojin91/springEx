@@ -5,22 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aaa5904-80ad-44e2-a8f8-fef77780c3d2" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo/modify.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo/read.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/controller/TodoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/controller/TodoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/dto/TodoDTO$TodoDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/dto/TodoDTO$TodoDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/dto/TodoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/dto/TodoDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/mapper/TodoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/mapper/TodoMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/service/TodoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/service/TodoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/service/TodoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/service/TodoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/net/ict/springex/mapper/TodoMapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/net/ict/springex/mapper/TodoMapperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/mappers/TodoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/mappers/TodoMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/controller/TodoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/controller/TodoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/views/todo/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/views/todo/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/dto/TodoDTO$TodoDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/dto/TodoDTO$TodoDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/dto/TodoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/dto/TodoDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/mapper/TodoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/mapper/TodoMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/service/TodoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/service/TodoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/service/TodoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/service/TodoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/net.ict.springex.service.TodoServiceTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/net.ict.springex.service.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/mappers/TodoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/mappers/TodoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-net.ict.springex.service.TodoServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/ict/springex/controller/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/controller/TodoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/ict/springex/dto/TodoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/dto/TodoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/ict/springex/mapper/TodoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/mapper/TodoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/ict/springex/service/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/service/TodoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/ict/springex/service/TodoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/service/TodoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/TodoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/TodoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/net/ict/springex/mapper/TodoMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/net/ict/springex/mapper/TodoMapperTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +89,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -142,29 +168,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TimeMapperTest.testNow" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;net.ict.springex.TimeMapperTest.testNow&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="TodoMapperTest.testGetTime" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -202,6 +205,29 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;net.ict.springex.mapper.TodoMapperTest.testInsert&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TodoMapperTest.testSelectAll" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;net.ict.springex.mapper.TodoMapperTest.testSelectAll&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -254,6 +280,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Tomcat 9.0.652" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.652" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="$PROJECT_DIR$/../../Java/jdk-11.0.2">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/todo/register" />
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
@@ -345,20 +372,20 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.SampleTests.testConnection" />
-      <item itemvalue="Gradle.TimeMapperTest.testNow" />
       <item itemvalue="Gradle.springEx" />
       <item itemvalue="Gradle.TodoMapperTest.testGetTime" />
       <item itemvalue="Gradle.TodoMapperTest.testInsert" />
       <item itemvalue="Gradle.TodoServiceTest.testRegister" />
+      <item itemvalue="Gradle.TodoMapperTest.testSelectAll" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.652" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TodoMapperTest.testSelectAll" />
         <item itemvalue="Gradle.TodoServiceTest.testRegister" />
         <item itemvalue="Gradle.TodoMapperTest.testInsert" />
         <item itemvalue="Gradle.TodoMapperTest.testGetTime" />
         <item itemvalue="Gradle.springEx" />
-        <item itemvalue="Gradle.TimeMapperTest.testNow" />
       </list>
     </recent_temporary>
   </component>
@@ -377,8 +404,16 @@
       <workItem from="1668418078886" duration="429000" />
       <workItem from="1668418529380" duration="397000" />
       <workItem from="1668418946567" duration="362000" />
-      <workItem from="1668472773058" duration="1715000" />
+      <workItem from="1668472773058" duration="10469000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1668474631314</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668474631314</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
