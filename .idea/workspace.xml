@@ -5,149 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aaa5904-80ad-44e2-a8f8-fef77780c3d2" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/checksums/md5-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/checksums/sha1-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4813dd7b-953e-479b-a588-1795a53e8838.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4813dd7b-953e-479b-a588-1795a53e8838/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4813dd7b-953e-479b-a588-1795a53e8838/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4813dd7b-953e-479b-a588-1795a53e8838/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/config/ModelMapperConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/controller/TodoController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/controller/exception/CommonExceptionAdvice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/controller/formatter/LocalDateFormatter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/domain/TodoVO$TodoVOBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/domain/TodoVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/dto/TodoDTO$TodoDTOBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/dto/TodoDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/mapper/TimeMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/mapper/TimeMapper2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/mapper/TodoMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/service/TodoService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/service/TodoServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/net/ict/springex/mapper/TimeMapperTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/net/ict/springex/mapper/TodoMapperTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/net/ict/springex/service/TodoServiceTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/mappers/TimeMapper2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/mappers/TodoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/config/ModelMapperConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/controller/TodoController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/controller/exception/CommonExceptionAdvice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/controller/formatter/LocalDateFormatter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/domain/TodoVO$TodoVOBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/domain/TodoVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/dto/TodoDTO$TodoDTOBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/dto/TodoDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/mapper/TimeMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/mapper/TimeMapper2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/mapper/TodoMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/service/TodoService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/service/TodoServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/HikariCP-5.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/classmate-1.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/hibernate-validator-6.2.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/jakarta.validation-api-2.0.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/jboss-logging-3.4.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/log4j-api-2.17.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/log4j-core-2.17.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/log4j-slf4j-impl-2.17.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/mariadb-java-client-3.0.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/modelmapper-3.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/mybatis-3.5.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/mybatis-spring-2.0.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/slf4j-api-1.7.30.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/spring-aop-5.3.19.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/spring-beans-5.3.19.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/spring-context-5.3.19.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/spring-core-5.3.19.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/spring-expression-5.3.19.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/spring-jcl-5.3.19.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/spring-jdbc-5.3.19.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/spring-test-5.3.19.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/spring-tx-5.3.19.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/spring-web-5.3.19.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/lib/spring-webmvc-5.3.19.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/root-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/servlet-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/views/custom404.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/views/todo/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/resources/intro.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/springEx-1.0-SNAPSHOT.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/net.ict.springex.service.TodoServiceTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/net.ict.springex.service.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/mappers/TimeMapper2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/mappers/TodoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-net.ict.springex.service.TodoServiceTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lombok.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/config/ModelMapperConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/controller/TodoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/controller/exception/CommonExceptionAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/controller/formatter/LocalDateFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/domain/TodoVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/dto/TodoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/mapper/TimeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/mapper/TimeMapper2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/mapper/TodoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/service/TodoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ict/springex/service/TodoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/TimeMapper2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/TodoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/root-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/servlet-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/custom404.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/intro.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/net/ict/springex/mapper/TimeMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/net/ict/springex/mapper/TodoMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/net/ict/springex/service/TodoServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo/modify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo/read.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/controller/TodoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/ict/springex/controller/TodoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/controller/TodoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/classes/net/ict/springex/controller/TodoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/views/todo/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/springEx-1.0-SNAPSHOT.war/WEB-INF/views/todo/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo/register.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,10 +98,14 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Spring5\springEx\src\main\webapp\WEB-INF\views\todo" />
       <recent name="C:\Spring5\springEx\src\main\webapp\WEB-INF" />
       <recent name="C:\Spring5\springEx\src\main\resources" />
     </key>
@@ -241,7 +118,7 @@
       <command value="gradle " />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.SampleTests.testConnection">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.652">
     <configuration name="SampleTests.testConnection" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -500,6 +377,7 @@
       <workItem from="1668418078886" duration="429000" />
       <workItem from="1668418529380" duration="397000" />
       <workItem from="1668418946567" duration="362000" />
+      <workItem from="1668472773058" duration="1715000" />
     </task>
     <servers />
   </component>
