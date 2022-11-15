@@ -7,6 +7,7 @@ import net.ict.springex.service.TodoService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -37,7 +38,7 @@ public class TodoController {
 
     @PostMapping("/register")    //요청 페이지 분기, Post 방식
     public String registerPost(@Valid TodoDTO todoDTO, BindingResult bindingResult, RedirectAttributes redirectAttributes){
-        log.info("Post todo register..........");   //TodoDTO는 검증대상.
+        log.info("Post todo register..........");   //TodoDTO는 검증대상, BindingResult는 에러의 결과를 담아내는 객체.
 
         if (bindingResult.hasErrors()){
 
@@ -50,7 +51,34 @@ public class TodoController {
 
         return "redirect:/todo/list";
     }
+    @GetMapping({"/read", "/modify"})
+    public void read(Long tno,Model model){
+        TodoDTO todoDTO = todoService.getOne(tno);
+        log.info(todoDTO);
+        model.addAttribute("dto", todoDTO);   //view에 보여질 내용을 model에 담기.
+    }
+    @PostMapping("modify")
+    public String modify(@Valid TodoDTO todoDTO, BindingResult bindingResult,RedirectAttributes redirectAttributes){
+        if(bindingResult.hasErrors()){
+            log.info("has errors......");
+            redirectAttributes.addFlashAttribute("error",bindingResult.getAllErrors());
+            redirectAttributes.addAttribute("tno", todoDTO.getTno());
+            return "redirect:/todo/modify";
+        }
+        log.info(todoDTO);
+        todoService.modify(todoDTO);
+        return "redirect:/todo/list";
+    }
 
+    @PostMapping("/remove")
+    public String remove(Long tno, RedirectAttributes redirectAttributes){ //글번호로선택된 글의 모든 정보를 담아오는 RedirectAttributes
+
+        log.info("remove..........");
+        log.info("tno :"+ tno);
+        todoService.remove(tno);
+        return "redirect:/todo/list";   //삭제후에 list로 이동.
+
+    }
 
 
 }

@@ -93,6 +93,7 @@
                         </form>
 
                         <script>
+                            // 에러 메세지 처리
 
                             const serverValidResult = {}
 
@@ -106,33 +107,34 @@
                         </script>
 
                             </div>
+
                     <script>
 
                         const formObj = document.querySelector("form")
-
-                        // document.querySelector(".btn-danger").addEventListener("click",function(e) {
-                        //
-                        //     e.preventDefault()
-                        //     e.stopPropagation()
-                        //
-                        //     formObj.action ="/todo/remove"
-                        //     formObj.method ="post"
-                        //
-                        //     formObj.submit()
-                        //
-                        // },false);
 
                         document.querySelector(".btn-danger").addEventListener("click",function(e) {
 
                             e.preventDefault()
                             e.stopPropagation()
 
-                            formObj.action =`/todo/remove?${pageRequestDTO.link}`
+                            formObj.action ="/todo/remove"
                             formObj.method ="post"
 
                             formObj.submit()
 
                         },false);
+
+                        //document.querySelector(".btn-danger").addEventListener("click",function(e) {
+
+                        //    e.preventDefault()
+                        //    e.stopPropagation()
+
+                        //    formObj.action =`/todo/remove?${pageRequestDTO.link}`
+                        //    formObj.method ="post"
+
+                        //    formObj.submit()
+
+                        //},false);
 
 
                         document.querySelector(".btn-primary").addEventListener("click",function(e) {
@@ -147,23 +149,23 @@
 
                         },false);
 
-                        /*document.querySelector(".btn-secondary").addEventListener("click",function(e) {
+                        //document.querySelector(".btn-secondary").addEventListener("click",function(e) {
 
-                            e.preventDefault()
-                            e.stopPropagation()
+                        //    e.preventDefault()
+                        //    e.stopPropagation()
 
-                            self.location = "/todo/list";
+                        //    self.location = "/todo/list";
 
-                        },false);*/
+                        //},false);
 
-                        document.querySelector(".btn-secondary").addEventListener("click",function(e) {
+                        // document.querySelector(".btn-secondary").addEventListener("click",function(e) {
 
-                            e.preventDefault()
-                            e.stopPropagation()
+                        //    e.preventDefault()
+                        //    e.stopPropagation()
 
-                            self.location= `/todo/list?${pageRequestDTO.link}`
+                        //    self.location= `/todo/list?${pageRequestDTO.link}`
 
-                        },false);
+                        //},false);
 
 
                     </script>

@@ -8,7 +8,6 @@ import net.ict.springex.mapper.TodoMapper;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -31,10 +30,29 @@ public class TodoServiceImpl implements TodoService{
 
     @Override
     public List<TodoDTO> getAll() {
-        List<TodoDTO> dtoList = todoMapper.selectAll().stream()  // stream() : 읽기전용의 일회용 병렬처리메소드.
+        List<TodoDTO> dtoList = todoMapper.selectAll().stream()  //stream() : 읽기전용의 일회용 병렬처리메소드.
                 .map(vo-> modelMapper.map(vo,TodoDTO.class))  // vo를 dto타입으로 바꿔줌.
                 .collect(Collectors.toList());   //List<TodoDTO>의 형태로 묶어줌.
 
         return dtoList;
     }
+
+    @Override
+    public TodoDTO getOne(Long tno) {
+        TodoVO  todoVO = todoMapper.selectOne(tno);    //
+        TodoDTO todoDTO = modelMapper.map(todoVO,TodoDTO.class);
+        return todoDTO;
+    }
+
+    @Override
+    public void remove(Long tno) {
+        todoMapper.delete(tno);
+    }
+
+    @Override
+    public void modify(TodoDTO todoDTO) {
+        TodoVO todoVO = modelMapper.map(todoDTO, TodoVO.class);
+        todoMapper.update(todoVO);
+    }
+
 }

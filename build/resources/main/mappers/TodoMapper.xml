@@ -5,7 +5,7 @@
 <mapper namespace="net.ict.springex.mapper.TodoMapper"> <!--namespace : 매핑할 클래스의 위치값-->
 
     <select id="getTime" resultType="string">    <!--id : 지정 클래스의 메소드이름-->
-        select now();
+        select now()
     </select>
 
     <insert id="insert">
@@ -14,5 +14,15 @@
     <select id="selectAll" resultType="net.ict.springex.domain.TodoVO">
         select * from tbl_todo order by tno desc
     </select>
+    <select id="selectOne" resultType="net.ict.springex.domain.TodoVO">
+        select *from tbl_todo where tno = #{tno}
+    </select>
+
+    <delete id="delete">
+        delete from tbl_todo where tno=#{tno}
+    </delete>
+    <update id="update">
+        update tbl_todo set title= #{title}, dueDate = #{dueDate}, finished = #{finished} where tno =#{tno}
+    </update>
 
 </mapper>

@@ -1,6 +1,7 @@
 package net.ict.springex.service;
 
 import lombok.extern.log4j.Log4j2;
+import net.ict.springex.domain.TodoVO;
 import net.ict.springex.dto.TodoDTO;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -17,6 +18,7 @@ public class TodoServiceTest {
     @Autowired
     private TodoService todoService;
 
+
     @Test
     public void testRegister(){
         TodoDTO todoDTO= TodoDTO.builder()
@@ -25,5 +27,25 @@ public class TodoServiceTest {
                 .writer("ict01")
                 .build();
         todoService.register(todoDTO);
+    }
+    @Test
+    public void testSelectOne() {
+        TodoDTO todoDTO= todoService.getOne((long)1);
+        log.info(todoDTO);
+    }
+    @Test
+    public void testDelete(){
+        todoService.remove((long)2);
+    }
+    @Test
+    public void testUpdate(){
+        TodoDTO todoDTO= TodoDTO.builder()
+                .tno((long)1)
+                .title("수정중.........")
+                .dueDate(LocalDate.now())
+                .finished(true)
+                .build();
+        log.info(todoDTO);
+        todoService.modify(todoDTO);
     }
 }

@@ -8,5 +8,7 @@ import java.util.List;
 public interface TodoService {
     void register(TodoDTO todoDTO);   // setter가 필요하기 때문에
     List<TodoDTO> getAll();
-
+    TodoDTO getOne(Long tno);
+    void remove(Long tno);
+    void modify(TodoDTO todoDTO);
 }

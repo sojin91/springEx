@@ -21,10 +21,12 @@
         <property name="prefix" value="/WEB-INF/views/"></property>
         <property name="suffix" value=".jsp"></property>
     </bean>
+    <!--출력형식 지정해주어야하는 항목에대한 Formatter 설정-->
     <bean id = "conversionService" class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
         <property name="formatters">
             <set>
-                <bean class="net.ict.springex.controller.formatter.LocalDateFormatter"></bean>
+                <bean class="net.ict.springex.controller.formatter.LocalDateFormatter"/>
+                <bean class="net.ict.springex.controller.formatter.CheckboxFormatter"/>
             </set>
         </property>
     </bean>
