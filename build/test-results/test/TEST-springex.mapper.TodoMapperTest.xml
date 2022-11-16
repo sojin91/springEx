@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="springex.mapper.TodoMapperTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-16T07:27:05" hostname="DESKTOP-S095GHJ" time="0.171">
+  <properties/>
+  <testcase name="testSelectSearch()" classname="springex.mapper.TodoMapperTest" time="0.171"/>
+  <system-out><![CDATA[04:27:04  INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+04:27:04  INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@29f0802c, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3a60c416, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@60f2e0bd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@469d003c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6b410923, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@57bd2029, org.springframework.test.context.event.EventPublishingTestExecutionListener@203dd56b]
+04:27:04  INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+04:27:04  INFO [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@cdb2d95
+04:27:04  INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+04:27:05 DEBUG [net.ict.springex.mapper.TodoMapper.selectList] ==>  Preparing: select * from tbl_todo WHERE ( title like concat('%',?,'%') OR writer like concat('%',?,'%') ) and dueDate between ? and ? order by tno desc limit ?,?
+04:27:05 DEBUG [net.ict.springex.mapper.TodoMapper.selectList] ==> Parameters: 스프링(String), 스프링(String), 2022-11-14(LocalDate), 2022-11-30(LocalDate), 0(Integer), 10(Integer)
+04:27:05 TRACE [net.ict.springex.mapper.TodoMapper.selectList] <==    Columns: tno, title, dueDate, writer, finished
+04:27:05 TRACE [net.ict.springex.mapper.TodoMapper.selectList] <==        Row: 473, 스프링, 2022-11-24, 소진, 0
+04:27:05 TRACE [net.ict.springex.mapper.TodoMapper.selectList] <==        Row: 466, 스프링, 2022-11-24, 소진, 0
+04:27:05 TRACE [net.ict.springex.mapper.TodoMapper.selectList] <==        Row: 459, 스프링, 2022-11-24, 소진, 0
+04:27:05 TRACE [net.ict.springex.mapper.TodoMapper.selectList] <==        Row: 452, 스프링, 2022-11-24, 소진, 0
+04:27:05 TRACE [net.ict.springex.mapper.TodoMapper.selectList] <==        Row: 445, 스프링, 2022-11-24, 소진, 0
+04:27:05 TRACE [net.ict.springex.mapper.TodoMapper.selectList] <==        Row: 438, 스프링, 2022-11-24, 소진, 0
+04:27:05 TRACE [net.ict.springex.mapper.TodoMapper.selectList] <==        Row: 431, 스프링, 2022-11-24, 소진, 0
+04:27:05 TRACE [net.ict.springex.mapper.TodoMapper.selectList] <==        Row: 424, 스프링, 2022-11-24, 소진, 0
+04:27:05 TRACE [net.ict.springex.mapper.TodoMapper.selectList] <==        Row: 417, 스프링, 2022-11-24, 소진, 0
+04:27:05 TRACE [net.ict.springex.mapper.TodoMapper.selectList] <==        Row: 410, 스프링, 2022-11-24, 소진, 0
+04:27:05 DEBUG [net.ict.springex.mapper.TodoMapper.selectList] <==      Total: 10
+04:27:05  INFO [springex.mapper.TodoMapperTest] TodoVO(tno=473, title=스프링, dueDate=2022-11-24, finished=false, writer=소진)
+04:27:05  INFO [springex.mapper.TodoMapperTest] TodoVO(tno=466, title=스프링, dueDate=2022-11-24, finished=false, writer=소진)
+04:27:05  INFO [springex.mapper.TodoMapperTest] TodoVO(tno=459, title=스프링, dueDate=2022-11-24, finished=false, writer=소진)
+04:27:05  INFO [springex.mapper.TodoMapperTest] TodoVO(tno=452, title=스프링, dueDate=2022-11-24, finished=false, writer=소진)
+04:27:05  INFO [springex.mapper.TodoMapperTest] TodoVO(tno=445, title=스프링, dueDate=2022-11-24, finished=false, writer=소진)
+04:27:05  INFO [springex.mapper.TodoMapperTest] TodoVO(tno=438, title=스프링, dueDate=2022-11-24, finished=false, writer=소진)
+04:27:05  INFO [springex.mapper.TodoMapperTest] TodoVO(tno=431, title=스프링, dueDate=2022-11-24, finished=false, writer=소진)
+04:27:05  INFO [springex.mapper.TodoMapperTest] TodoVO(tno=424, title=스프링, dueDate=2022-11-24, finished=false, writer=소진)
+04:27:05  INFO [springex.mapper.TodoMapperTest] TodoVO(tno=417, title=스프링, dueDate=2022-11-24, finished=false, writer=소진)
+04:27:05  INFO [springex.mapper.TodoMapperTest] TodoVO(tno=410, title=스프링, dueDate=2022-11-24, finished=false, writer=소진)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
