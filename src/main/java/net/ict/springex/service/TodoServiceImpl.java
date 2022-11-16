@@ -3,6 +3,8 @@ package net.ict.springex.service;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import net.ict.springex.domain.TodoVO;
+import net.ict.springex.dto.PageRequestDTO;
+import net.ict.springex.dto.PageResponseDTO;
 import net.ict.springex.dto.TodoDTO;
 import net.ict.springex.mapper.TodoMapper;
 import org.modelmapper.ModelMapper;
@@ -28,14 +30,14 @@ public class TodoServiceImpl implements TodoService{
         todoMapper.insert(todoVO);
     }
 
-    @Override
+   /* @Override
     public List<TodoDTO> getAll() {
         List<TodoDTO> dtoList = todoMapper.selectAll().stream()  //stream() : 읽기전용의 일회용 병렬처리메소드.
                 .map(vo-> modelMapper.map(vo,TodoDTO.class))  // vo를 dto타입으로 바꿔줌.
                 .collect(Collectors.toList());   //List<TodoDTO>의 형태로 묶어줌.
 
         return dtoList;
-    }
+    }*/
 
     @Override
     public TodoDTO getOne(Long tno) {
@@ -53,6 +55,23 @@ public class TodoServiceImpl implements TodoService{
     public void modify(TodoDTO todoDTO) {
         TodoVO todoVO = modelMapper.map(todoDTO, TodoVO.class);
         todoMapper.update(todoVO);
+    }
+
+    @Override
+    public PageResponseDTO<TodoDTO> getList(PageRequestDTO pageRequestDTO) {
+        List<TodoVO> voList = todoMapper.selectList(pageRequestDTO);
+        List<TodoDTO> dtoList = voList.stream()  //stream() : 읽기전용의 일회용 병렬처리메소드.
+                .map(vo-> modelMapper.map(vo,TodoDTO.class))  // vo를 dto타입으로 바꿔줌.
+                .collect(Collectors.toList());   //List<TodoDTO>의 형태로 묶어줌.
+        int total = todoMapper.getCount(pageRequestDTO);
+
+        PageResponseDTO<TodoDTO> pageResponseDTO = PageResponseDTO.<TodoDTO>withAll()
+                .dtoList(dtoList)
+                .total(total)
+                .pageRequestDTO(pageRequestDTO)
+                .build();
+
+        return pageResponseDTO;
     }
 
 }

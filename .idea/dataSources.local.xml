@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="IU-213.7172.25">
-    <data-source name="webdb@localhost" uuid="4813dd7b-953e-479b-a588-1795a53e8838">
+    <data-source name="webdb@localhost" uuid="48f1b331-beed-4ce2-99cf-097ee9a6e429">
       <database-info product="MariaDB" version="10.5.17-MariaDB" jdbc-version="4.2" driver-name="MariaDB Connector/J" driver-version="3.0.7" dbms="MARIADB" exact-version="10.5.17" exact-driver-version="3.0">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>

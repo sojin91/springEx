@@ -2,8 +2,10 @@
 <web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
-                             http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+
+
 <!-- WEBAPP 패키지 전체를 관장하는 설정파일-->
     <context-param>
         <param-name>contextConfigLocation</param-name>
@@ -20,9 +22,10 @@
         <servlet-name>appServlet</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
         <init-param>
-           <param-name>contextConfigLocation</param-name>
-           <param-value>/WEB-INF/servlet-context.xml</param-value>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>/WEB-INF/servlet-context.xml</param-value>
         </init-param>
+
         <!--예외를 처리할 핸들러가 없는경우의 설정.-->
         <init-param>
             <param-name>throwExceptionIfNoHandlerFound</param-name>
@@ -35,7 +38,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>appServlet</servlet-name>
-        <url-pattern>/</url-pattern> <!--모든 경로 다 가능-->
+        <url-pattern>/</url-pattern><!--모든 경로 다 가능-->
     </servlet-mapping>
 
 <!--한글깨짐 방지 필터 적용-->
@@ -49,7 +52,7 @@
     </filter>
     <filter-mapping>
         <filter-name>encoding</filter-name>
-        <servlet-name>appServlet</servlet-name>  <!--FrontController이름-->
+        <servlet-name>appServlet</servlet-name>
     </filter-mapping>
 
 </web-app>
